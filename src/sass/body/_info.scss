@@ -1,0 +1,33 @@
+.info {
+  padding: 100px 0 150px 0;
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__item {
+    display: flex;
+  }
+  &__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 25px;
+  }
+  &__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  &__title {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    color: $main-color;
+  }
+  &__subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #828282;
+  }
+}

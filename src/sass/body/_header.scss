@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  width: 100%;
+  margin-bottom: 80px;
+  &__logo {
+    display: flex;
+    max-width: 175px;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 300px;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  &__daunku {
+    font-weight: 700;
+    font-size: 32px;
+    color: #ffffff;
+  }
+  &__list {
+    width: 550px;
+    margin-right: 440px;
+  }
+  &__ul {
+    height: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+  }
+  &__li {
+    a {
+      font-weight: 400;
+      font-size: 24px;
+      color: #ffffff;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,92 @@
+.product {
+  padding: 150px 0 180px 0;
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  &__title {
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    color: $main-color;
+    margin-bottom: 40px;
+  }
+  &__subtitle {
+    &_text {
+      display: inline;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 28px;
+      color: #4f4f4f;
+      margin-right: 10px;
+    }
+    i {
+      color: $main-color;
+      vertical-align: bottom;
+      font-size: 30px;
+    }
+  }
+  &__items{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__item {
+    margin-right: 30px;
+    &:last-child {
+      margin-right: 0;
+    }
+    &_background {
+      position: relative;
+      width: 330px;
+      height: 510px;
+      background: #c1d0e4;
+      border-radius: 50px;
+    }
+    &_img {
+      position: absolute;
+      top: -25%;
+    }
+    &_info {
+      position: absolute;
+      bottom: 0;
+      padding: 25px 40px;
+      width: 330px;
+      height: 260px;
+      background: #ffffff;
+      border-radius: 50px;
+    }
+    &_descr {
+      font-weight: 500;
+      font-size: 32px;
+      line-height: 38px;
+      color: $main-color;
+      margin-bottom: 10px;
+    }
+    &_score {
+      margin-bottom: 85px;
+    }
+    &_footer {
+      display: flex;
+      justify-content: space-between;
+    }
+    &_price {
+      display: flex;
+      align-items: center;
+      font-weight: 500;
+      font-size: 32px;
+      line-height: 38px;
+      color: $main-color;
+    }
+    &_btn {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}

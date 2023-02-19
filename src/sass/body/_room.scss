@@ -1,0 +1,55 @@
+.room {
+  padding-bottom: 180px;
+  &__title {
+    text-align: center;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    color: $main-color;
+    margin-bottom: 30px;
+  }
+  &__subtitle {
+    text-align: center;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #4f4f4f;
+    margin-bottom: 80px;
+  }
+  &__grid {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 735px 717px;
+    grid-template-rows: 550px 405px;
+    gap: 40px;
+    img{
+      width: 100%;
+    }
+  }
+  #room1 {
+    img {
+      filter: brightness(60%);
+    }
+  }
+  #room2 {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+  }
+  #room3 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 4;
+  }
+  &__section {
+    position: relative;
+  }
+  &__descr {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 75px;
+    color: #ffffff;
+  }
+}
